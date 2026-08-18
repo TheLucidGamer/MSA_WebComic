@@ -39,6 +39,19 @@ a:hover {
 
 }
 
+#seriesLogo{
+
+    padding-top: 24px;
+    padding-bottom:24px;
+
+}
+
+#faq_SamusRender{
+    display: flex;
+    justify-content: center;
+}
+
+
 #navigation {
 
     text-transform: uppercase;
@@ -220,6 +233,15 @@ a:hover {
 
     padding-top: 25px;
     padding-bottom: 50px;
+
+}
+
+.releases_bodyHeader {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 /*===============================================================================*/
