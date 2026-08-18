@@ -1,0 +1,288 @@
+body {
+    color: #FFFFFF;
+    background-color: #12121C;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+    font-family: sans-serif, monospace;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: palevioletred;
+}
+a:visited{
+    color: palevioletred;
+}
+a:active{
+    color: palegreen;
+}
+a:hover {
+    color: pink;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+#logo {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+
+    height: 320px;
+
+}
+
+#navigation {
+
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+
+    background-color: #15151F;
+
+    padding: 75px, 75px;
+    margin-left: 36px;
+    margin-right: 36px;
+
+}
+.nav_button {
+
+    padding: 200px, 200px, 200px, 200px;
+
+}
+
+/*-------------------------------------------------------------------------------*/
+
+#index_body {
+
+    background-color: black;
+    text-shadow: #005C6F;
+    color: #00AFCF;
+
+    line-height: 1.25;
+    font-family: "Verdana";
+
+    margin-top: 24px;
+    margin-right: 36px;
+    margin-bottom: 24px;
+    margin-left: 36px;
+
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+
+.index_bodyHeader {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.index_bodyText1 {
+    display: flex;
+    justify-content: stretch;
+
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25px;
+
+    font-style: oblique;
+}
+.index_bodyText2 {
+    display: block;
+    justify-content: stretch;
+
+    text-indent: 10mm;
+
+    margin-top: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 25px;
+    
+}
+.index_bodyText3 {
+    display: block;
+    justify-content: center;
+
+    text-align: center;
+
+    margin-top: 25px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 25px;
+    
+}
+.index_bodyImage{
+    display: block;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: auto;
+    padding-right: auto;
+
+    text-align: center;
+ 
+}
+
+#missionContract{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#pageInfo{
+
+    color: #4d4d69;
+
+    display: flexbox;
+    justify-content: center;
+
+    font-family: sans-serif, monospace;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+    font-size: small;
+
+    text-align: center;
+    
+    padding-top: 0%;
+    padding-bottom: 25px;
+}
+.editedLast{
+    padding-left: 24px;
+    padding-right: 5%;
+
+    line-height: 0.75;
+}
+.attributions{
+    padding-left: 24px;
+    padding-right: 24px;
+
+    line-height: 1.5;
+}
+.questions{
+    padding-left: 5%;
+    padding-right: 24px;
+
+   line-height: 1.5;
+}
+/*===============================================================================*/
+#art_body {
+
+    background-color: black;
+    text-shadow: #005C6F;
+    color: #00AFCF;
+
+    line-height: 1.25;
+    font-family: "Verdana";
+
+    margin-top: 24px;
+    margin-right: 36px;
+    margin-bottom: 36px;
+    margin-left: 36px;
+
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+
+.art_bodyHeader {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+/*===============================================================================*/
+#releases_body {
+
+    background-color: black;
+    text-shadow: #005C6F;
+    color: #00AFCF;
+
+    margin-top: 24px;
+    margin-right: 36px;
+    margin-bottom: 24px;
+    margin-left: 36px;
+
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+/*===============================================================================*/
+#faq_body {
+
+    background-color: black;
+    text-shadow: #005C6F;
+    color: #00AFCF;
+
+    line-height: 1.25;
+    font-family: "Verdana";
+
+    margin-top: 24px;
+    margin-right: 36px;
+    margin-bottom: 24px;
+    margin-left: 36px;
+
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+
+.faq_bodyHeader {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.faqQuestion{
+    margin-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 25px;
+}
+
+.faqAnswer1{
+
+    margin-top: 0px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 0px;
+
+}
+.faqAnswer2{
+
+    text-indent: 10mm;
+
+    margin-top: 0px;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 0px;
+}
+.faqAnswer2_funny{
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1600%;
+
+    margin-top: 0px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-bottom: 0px;
+}
