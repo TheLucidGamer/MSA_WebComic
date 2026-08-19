@@ -10,6 +10,14 @@ body {
     -webkit-font-smoothing: none;
 }
 
+hr{
+
+    color: #1c1c1c;
+
+    margin: 10%;
+
+}
+
 a:link {
     text-decoration: none;
     color: palevioletred;
@@ -156,6 +164,23 @@ a:hover {
     padding-bottom: 24px;
 }
 
+.index_bodyPresentation{
+
+    display: flexbox;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+.logoSVG_MSA{
+
+    filter: invert();
+
+}
+
+/*======================================================*/
+
 #pageInfo{
 
     color: #4d4d69;
@@ -164,7 +189,7 @@ a:hover {
     justify-content: center;
 
     font-family: sans-serif, monospace;
-    font-smooth: never;
+    font-smooth: always;
     -webkit-font-smoothing: none;
     font-size: small;
 
@@ -203,7 +228,7 @@ a:hover {
 
     margin-top: 24px;
     margin-right: 36px;
-    margin-bottom: 36px;
+    margin-bottom: 24px;
     margin-left: 36px;
 
     padding-top: 25px;
@@ -225,6 +250,9 @@ a:hover {
     background-color: black;
     text-shadow: #005C6F;
     color: #00AFCF;
+
+    line-height: 1.25;
+    font-family: "Verdana";
 
     margin-top: 24px;
     margin-right: 36px;
