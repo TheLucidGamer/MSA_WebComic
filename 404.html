@@ -10,7 +10,7 @@
         <script src="../MSA_WebComic/script.js" defer>
             console.log("// Script loaded!");
 
-            //this is a backup call incase the server reads back a failure
+            //this is a backup call incase the server reads back a failure for the .js itself
 
             var audioToPlay = document.getElementById("audioFile");
 
@@ -19,9 +19,16 @@
                     muted = false;
                 }
 
-                window.onclick = function() {
-                    audioToPlay.play();
-                    this.onclick = null;
+                window.onclick = function() { // No, I DON'T have enough redundant code. >:(
+
+                    if (audioToPlay.play() = true)(
+                        this.onclick = null
+                    ) 
+                    else {
+                        audioToPlay.play();
+                        this.onclick = null;    
+                    }
+                    
                 }
 
                 var audio = document.querySelector('audio'); {
@@ -29,6 +36,7 @@
                     audio.volume = 0.15;
 
                 }
+
         </script>
 
         <link rel="icon" type="image/x-icon" href="../MSA_WebComic/images/favicon.ico">
@@ -36,11 +44,15 @@
 
     <body>
         <div id="image_404">
-            404. :(
-            <audio id="audioFile">
+            <p style=" font-size: larger;">
+               Code 404 :( 
+            </p>
+            
+            <br>
+            <audio id="audioFile" loop>
                 <source src="../MSA_WebComic/music/title.mp3" type="audio/mp3">
             </audio>
-            <img src="../MSA_WebComic/images/404/Metroid_Enemy_Zoomer.gif" title="Engage the Zoomer, Mother Hubbard.">
+            <img src="../MSA_WebComic/images/404/Metroid_Enemy_Zoomer.gif" title="Engage the Zoomer, Mother Hubbard." class="Zoomer">
         </div>
     </body>
 

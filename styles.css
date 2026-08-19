@@ -32,19 +32,49 @@ a:hover {
     color: pink;
 }
 
+.return{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+
+    text-align: center;
+
+    margin-top: 15%;
+
+    font-family: "Verdana";
+    text-transform: uppercase;
+
+}
+
 /*-------------------------------------------------------------------------------*/
 
 #image_404{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-        align-items: center;
+/*
+    display: grid;
+    justify-content: center;
+    
+    align-items: center;
 
-        text-align: center;
+    padding: 0%;
+*/
+    margin-top: 20%;
+    margin-bottom:20%;
 
-        margin-top: auto;
-        margin-bottom: auto;
+    text-align: center;
+
+    /* CSS, I'm begging you here...*/
+
+    font-family: monospace;
+
+}
+
+.Zoomer{
+
+    margin:auto;
+
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -108,9 +138,9 @@ a:hover {
     font-family: "Verdana";
 
     margin-top: 24px;
-    margin-right: 36px;
+    margin-right: 10%;
     margin-bottom: 24px;
-    margin-left: 36px;
+    margin-left: 10%;
 
     padding-top: 25px;
     padding-bottom: 50px;
@@ -186,9 +216,14 @@ a:hover {
 
     text-align: center;
 
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
 
 .logoSVG_MSA{
+
+    margin-top: 15%;
 
     filter: invert();
 
@@ -251,14 +286,24 @@ a:hover {
 
 }
 
-.releases_tableBody{
-
+.releases_bodyText {
     display: flex;
     justify-content: center;
 
-    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
-    font-size: 24px;
+}
+
+.releases_tableBody{
+
+    display: grid;
+    justify-content: center;
+
+    text-align: center;
+    line-height: 1.5;
+
+    font-size: 18px;
 
 }
 
@@ -266,11 +311,22 @@ a:hover {
 
     text-transform: uppercase;
 
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
+td{
 
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
 /*-- issues subdirectory --*/
 
 
