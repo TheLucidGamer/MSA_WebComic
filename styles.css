@@ -34,6 +34,21 @@ a:hover {
 
 /*-------------------------------------------------------------------------------*/
 
+#image_404{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-items: center;
+
+        text-align: center;
+
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+/*-------------------------------------------------------------------------------*/
+
 #logo {
 
     display: flex;
@@ -179,43 +194,6 @@ a:hover {
 
 }
 
-/*======================================================*/
-
-#pageInfo{
-
-    color: #4d4d69;
-
-    display: flexbox;
-    justify-content: center;
-
-    font-family: sans-serif, monospace;
-    font-smooth: always;
-    -webkit-font-smoothing: none;
-    font-size: small;
-
-    text-align: center;
-    
-    padding-top: 0%;
-    padding-bottom: 25px;
-}
-.editedLast{
-    padding-left: 24px;
-    padding-right: 5%;
-
-    line-height: 0.75;
-}
-.attributions{
-    padding-left: 24px;
-    padding-right: 24px;
-
-    line-height: 1.5;
-}
-.questions{
-    padding-left: 5%;
-    padding-right: 24px;
-
-   line-height: 1.5;
-}
 /*===============================================================================*/
 #art_body {
 
@@ -272,7 +250,33 @@ a:hover {
     padding-bottom: 25px;
 
 }
+
+.releases_tableBody{
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+    font-size: 24px;
+
+}
+
+.releases_tableHeader{
+
+    text-transform: uppercase;
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+/*-- issues subdirectory --*/
+
+
+
 /*===============================================================================*/
+
 #faq_body {
 
     background-color: black;
@@ -335,4 +339,42 @@ a:hover {
     padding-left: auto;
     padding-right: auto;
     margin-bottom: 0px;
+}
+
+/*======================================================*/
+
+#pageInfo{
+
+    color: #4d4d69;
+
+    display: flexbox;
+    justify-content: center;
+
+    font-family: sans-serif, monospace;
+    font-smooth: always;
+    -webkit-font-smoothing: none;
+    font-size: small;
+
+    text-align: center;
+    
+    padding-top: 0%;
+    padding-bottom: 25px;
+}
+.editedLast{
+    padding-left: 24px;
+    padding-right: 5%;
+
+    line-height: 0.75;
+}
+.attributions{
+    padding-left: 24px;
+    padding-right: 24px;
+
+    line-height: 1.5;
+}
+.questions{
+    padding-left: 5%;
+    padding-right: 24px;
+
+    line-height: 1.5;
 }
