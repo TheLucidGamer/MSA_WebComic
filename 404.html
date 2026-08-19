@@ -9,6 +9,26 @@
 
         <script src="../MSA_WebComic/script.js" defer>
             console.log("// Script loaded!");
+
+            //this is a backup call incase the server reads back a failure
+
+            var audioToPlay = document.getElementById("audioFile");
+
+                window.onload = function() {
+                    audioToPlay.play(); // Only works on some browsers
+                    muted = false;
+                }
+
+                window.onclick = function() {
+                    audioToPlay.play();
+                    this.onclick = null;
+                }
+
+                var audio = document.querySelector('audio'); {
+
+                    audio.volume = 0.15;
+
+                }
         </script>
 
         <link rel="icon" type="image/x-icon" href="../MSA_WebComic/images/favicon.ico">
