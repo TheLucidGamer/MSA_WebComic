@@ -1,5 +1,5 @@
 body {
-    
+
     color: #FFFFFF;
     background-color: #12121C;
 
@@ -117,12 +117,12 @@ a:hover {
 #navigation {
 
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: monospace, sans-serif;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
 
-    background-color: #15151F;
+    background-color: #1c1c29;
 
     padding: 75px, 75px;
     margin-left: 36px;
@@ -402,7 +402,7 @@ td{
 
     text-transform: uppercase;
     text-align: center;
-    font-size: 1600%;
+    font-size: 3200%;
 
     margin-top: 0px;
     padding-left: auto;
@@ -416,7 +416,7 @@ td{
 
     color: #4d4d69;
 
-    display: flexbox;
+    display: flex;
     justify-content: center;
 
     font-family: sans-serif, monospace;
@@ -429,21 +429,45 @@ td{
     padding-top: 0%;
     padding-bottom: 25px;
 }
-.editedLast{
-    padding-left: 24px;
-    padding-right: 5%;
 
-    line-height: 0.75;
+.noAI_Disclaimer{
+    padding-left: 36px;
+    padding-right: 2.5%;
+
+    margin: auto;
+
+    line-height: 1.5;
+}
+
+.editedLast{
+    padding-left: 2.5px;
+    padding-right: 2.5%;
+    
+    margin: auto;
+
+    line-height: 1.15;
 }
 .attributions{
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    margin: auto;
 
     line-height: 1.5;
 }
 .questions{
-    padding-left: 5%;
-    padding-right: 24px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    
+    margin: auto;
+
+    line-height: 1.5;
+}
+.pageHost{
+    padding-left: 2.5%;
+    padding-right: 36px;
+    
+    margin: auto;
 
     line-height: 1.5;
 }
