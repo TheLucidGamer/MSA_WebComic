@@ -417,7 +417,7 @@ td{
     color: #4d4d69;
 
     display: flex;
-    justify-content: center;
+    justify-content: end;
 
     font-family: sans-serif, monospace;
     font-smooth: always;
