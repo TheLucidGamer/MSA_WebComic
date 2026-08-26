@@ -416,8 +416,8 @@ td{
 
     color: #4d4d69;
 
-    display: flex;
-    justify-content: end;
+    display: inline-block;
+    justify-content: center;
 
     font-family: sans-serif, monospace;
     font-smooth: always;
