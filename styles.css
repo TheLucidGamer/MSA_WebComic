@@ -117,10 +117,12 @@ a:hover {
 #navigation {
 
     text-transform: uppercase;
-    font-family: monospace, sans-serif;
+    font-family: "Consolas", sans-serif, monospace;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
+
+    word-spacing: 36px;
 
     background-color: #1c1c29;
 
@@ -416,12 +418,11 @@ td{
 
     color: #4d4d69;
 
-    display: inline-block;
+    display: flex;
     justify-content: center;
 
     font-family: sans-serif, monospace;
-    font-smooth: always;
-    -webkit-font-smoothing: none;
+    -webkit-font-smoothing: always;
     font-size: small;
 
     text-align: center;
@@ -431,7 +432,8 @@ td{
 }
 
 .noAI_Disclaimer{
-    padding-left: 36px;
+    
+    padding-left: 2.5%;
     padding-right: 2.5%;
 
     margin: auto;
@@ -440,33 +442,37 @@ td{
 }
 
 .editedLast{
-    padding-left: 2.5px;
-    padding-right: 2.5%;
     
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
     margin: auto;
 
     line-height: 1.15;
 }
 .attributions{
-    padding-left: 0%;
-    padding-right: 0%;
+    
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 
     margin: auto;
 
     line-height: 1.5;
 }
 .questions{
+    
     padding-left: 2.5%;
     padding-right: 2.5%;
-    
+
     margin: auto;
 
     line-height: 1.5;
 }
 .pageHost{
-    padding-left: 2.5%;
-    padding-right: 36px;
     
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+
     margin: auto;
 
     line-height: 1.5;
