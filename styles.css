@@ -27,6 +27,11 @@ th{
     padding-right: 20px;
 }
 
+tr{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 a:link {
     text-decoration: none;
     color: palevioletred;
